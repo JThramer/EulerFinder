@@ -10,6 +10,8 @@
 		6E52389814ECB80D001F2727 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E52389714ECB80D001F2727 /* Foundation.framework */; };
 		6E52389B14ECB80D001F2727 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52389A14ECB80D001F2727 /* main.m */; };
 		6E52389F14ECB80D001F2727 /* EulerFinder.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6E52389E14ECB80D001F2727 /* EulerFinder.1 */; };
+		6E5238A714ECB80D001F2727 /* EulerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5238A614ECB80D001F2727 /* EulerNode.m */; };
+		6E5238AA14ECB80D001F2727 /* EulerNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5238A914ECB80D001F2727 /* EulerNodeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		6E52389A14ECB80D001F2727 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E52389D14ECB80D001F2727 /* EulerFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EulerFinder-Prefix.pch"; sourceTree = "<group>"; };
 		6E52389E14ECB80D001F2727 /* EulerFinder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EulerFinder.1; sourceTree = "<group>"; };
+		6E5238A514ECB80D001F2727 /* EulerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulerNode.h; sourceTree = "<group>"; };
+		6E5238A614ECB80D001F2727 /* EulerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EulerNode.m; sourceTree = "<group>"; };
+		6E5238A814ECB80D001F2727 /* EulerNodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulerNodeController.h; sourceTree = "<group>"; };
+		6E5238A914ECB80D001F2727 /* EulerNodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EulerNodeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				6E52389A14ECB80D001F2727 /* main.m */,
+				6E5238A814ECB80D001F2727 /* EulerNodeController.h */,
+				6E5238A914ECB80D001F2727 /* EulerNodeController.m */,
+				6E5238A514ECB80D001F2727 /* EulerNode.h */,
+				6E5238A614ECB80D001F2727 /* EulerNode.m */,
 				6E52389E14ECB80D001F2727 /* EulerFinder.1 */,
 				6E52389C14ECB80D001F2727 /* Supporting Files */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E52389B14ECB80D001F2727 /* main.m in Sources */,
+				6E5238A714ECB80D001F2727 /* EulerNode.m in Sources */,
+				6E5238AA14ECB80D001F2727 /* EulerNodeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EulerNode.h"
+
+
 
 int main (int argc, const char * argv[])
 {
@@ -20,3 +23,6 @@ int main (int argc, const char * argv[])
     return 0;
 }
 
+- (void) startTheHuntWithNodeLinks:(NSMutableArray *)nodes {
+    
+}
